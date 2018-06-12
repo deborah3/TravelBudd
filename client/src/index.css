@@ -90,3 +90,19 @@
 .explainFeatures h5 {
   font-size: 18px;
 }
+
+.budget {
+  color: green;
+}
+
+.expenses {
+  color: red;
+}
+
+.posLeftover {
+  color: green;
+}
+
+.negLeftover {
+  color: red;
+}

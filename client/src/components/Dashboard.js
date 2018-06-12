@@ -38,8 +38,7 @@ class Dashboard extends Component {
                 height="200"
               />
               <h5>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                commodo, dolor quis imperdiet consectetur, leo.
+                TravelBudd was made for those who love to travel but need assistance in budgeting for their trip!
               </h5>
             </div>
             <div class="img-with-text">
@@ -48,8 +47,7 @@ class Dashboard extends Component {
                 height="200"
               />
               <h5>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                commodo, dolor quis imperdiet consectetur, leo.
+                We are dedicated to all your travel expense needs, all organized in one place and page!
               </h5>
             </div>
             <div class="img-with-text">
@@ -58,19 +56,24 @@ class Dashboard extends Component {
                 height="200"
               />
               <h5>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                commodo, dolor quis imperdiet consectetur, leo.
+                We make it easier for you to organize accommodation, transportation, activities, and so much more with our built in expense categories!
               </h5>
             </div>
           </div>
           <br />
-          <h5 align="center">
-            To get started, click{' '}
-            <Link to="plan/add">
-              <a>here</a>
-            </Link>{' '}
-            or the red button on the bottom right corner.
-          </h5>
+          <h5 align="center">  
+        {' '}<Link to="plan/add">
+            <button class="startButton">
+                Start Budget
+            </button>
+        </Link>{' '}
+        <br/>
+            or 
+        <br/> 
+            click the red button on the bottom right corner.
+        <br/>
+        <br/>
+         </h5>
         </div>
       );
     }

@@ -90,3 +90,14 @@
 .explainFeatures h5 {
   font-size: 18px;
 }
+
+.welcome {
+  text-align: center;
+}
+
+.startButton {
+  background-color: #FE586B;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
